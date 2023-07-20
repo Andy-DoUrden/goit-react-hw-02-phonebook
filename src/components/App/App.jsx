@@ -36,7 +36,6 @@ export default class App extends Component {
     if (previousNames.includes(name)) {
       alert(`${name} is already in contacts`);
       return;
-    } else if (Number(number)) {
     }
 
     const newContact = {
